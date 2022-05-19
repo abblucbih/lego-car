@@ -5,6 +5,6 @@ const options = {
   clean: false,
 };
 
-let client = mqtt.connect("ws://abb-mosca.cloud.abbspets.se", options); // create a client
+let client = mqtt.connect("WSS://abb-mosca.cloud.abbspets.se", options); // create a client
 
 export { client };
